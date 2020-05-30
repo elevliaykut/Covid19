@@ -1,0 +1,9 @@
+.warning h1 {
+    text-align: Justify;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+    padding-left: 7%;
+    font-size: 23px;
+    font-weight: bold;
+}
