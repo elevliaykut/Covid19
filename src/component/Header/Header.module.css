@@ -1,17 +1,10 @@
-.warning h1 {
-    text-align: Justify;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    hyphens: auto;
-    font-size: 23px;
-    font-weight: bold;
+.header {
+    background-color: #4169E1;
+    height: 250px;
+}
+
+.logo {
     color: #fff;
-    padding: 20px 17px;
-    font-size: 22px;
-    border-radius: 0 0 10px 0px;
-    box-shadow: 0 1px 2px #888;
     font-weight: bold;
-    line-height: 33px;
-    background-color: #5035AB;
-    width: 60%;
+    font-size: 24px;
 }
