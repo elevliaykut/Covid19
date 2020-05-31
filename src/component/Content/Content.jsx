@@ -13,10 +13,14 @@ const Content = () => {
         <div>
             <Grid container item xs={12} md={12} className={styles.content}>
                 <Grid item xs={7} md={7} className={styles.worldmap}>
-                    <img src={Map} className={styles.map}/>
+                    <img src={Map} className={styles.map} />
                 </Grid>
-                <Grid item xs={5} md={5} className={styles.stayathome}>
+                <Grid item xs={3} md={3} className={styles.stayathome}>
                     <h2>📍Stay At Home</h2>
+                    <Typography  color="textSecondary">
+                        Today is equal to day and night in the northern hemisphere.We say stay at 
+                        home for our health while we will meet the spring.
+                    </Typography>
                 </Grid>
             </Grid>
         </div>

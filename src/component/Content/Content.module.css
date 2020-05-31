@@ -10,3 +10,12 @@
 .map {
     width: 60%;
 }
+
+.stayathome h2 {
+    text-align: right;
+    padding-top: 50px;
+}
+
+.history {
+    font-size: 50px;
+}
