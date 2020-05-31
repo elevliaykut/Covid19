@@ -2,13 +2,13 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Header from './component/Header/Header';
-import Content from './component/Content/Content';
+import Cards from './component/Cards/Cards';
 
 function App() {
   return (
     <div className="App">
         <Header/>
-        <Content/>
+        <Cards/>
     </div>
   );
 }
