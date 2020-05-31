@@ -11,10 +11,7 @@ class Header extends Component {
             <div className="Header">
                 <Grid container item xs="12" md="12" className={styles.header}>
                     <Grid item xs="9" md="9" className={styles.logo}>
-                        <h2>SAH</h2>
-                    </Grid>
-                    <Grid item xs="3" md="3" className={styles.stayathome}>
-                        <h3>Stay At Home</h3>
+                        <h2>Covid19.</h2>
                     </Grid>
                 </Grid>
             </div>

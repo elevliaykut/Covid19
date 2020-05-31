@@ -1,5 +1,7 @@
 .content {
     justify-content: center;
+    background-color: #f5f5f5;
+    height: 620px;
 }
 
 .confirmed {
@@ -23,6 +25,7 @@
     border-bottom-style: solid;
     border-bottom-width: 30px;
     border-bottom-color: #4169E1;
+    margin-left: 10px;
 }
 
 .death {
@@ -33,4 +36,5 @@
     border-bottom-style: solid;
     border-bottom-width: 30px;
     border-bottom-color: #4169E1;
+    margin-left: 10px;
 }
