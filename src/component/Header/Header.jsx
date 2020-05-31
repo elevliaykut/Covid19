@@ -9,14 +9,12 @@ class Header extends Component {
     render() {
         return (
             <div className="Header">
-                <Grid container spacing={3}>
-                    <Grid item xs="12" md="12" className={styles.header}>
-                        <Grid item xs="1" md="1" className={styles.logo}>
-                            <h2>SAH</h2>
-                        </Grid>
-                        <Grid item xs="4" md="4" className={styles.stayathome}>
-                            <h3>Stay At Home</h3>
-                        </Grid>
+                <Grid container item xs="12" md="12" className={styles.header}>
+                    <Grid item xs="9" md="9" className={styles.logo}>
+                        <h2>SAH</h2>
+                    </Grid>
+                    <Grid item xs="3" md="3" className={styles.stayathome}>
+                        <h3>Stay At Home</h3>
                     </Grid>
                 </Grid>
             </div>
