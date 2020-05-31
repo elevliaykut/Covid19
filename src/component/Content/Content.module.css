@@ -1,4 +1,6 @@
-.content {}
+.content {
+    padding-left: 300px;
+}
 
 .confirmed {
     padding: 25px;

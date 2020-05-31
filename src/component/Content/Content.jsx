@@ -13,7 +13,7 @@ import styles from './Content.module.css';
 const Content = () => {
     return (
         <div className={styles.content}>
-            <Grid container spacing={4} item xs="12" md="12">
+            <Grid container spacing={3} item xs="12" md="12">
                 <Grid item xs="3" md="3">
                     <Card className={styles.confirmed}>
                         <CardContent>
