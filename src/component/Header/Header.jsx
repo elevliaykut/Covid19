@@ -10,7 +10,7 @@ class Header extends Component {
         return (
             <div className="Header">
                 <Grid container item xs="12" md="12" className={styles.header}>
-                    <Grid item xs="9" md="9" className={styles.logo}>
+                    <Grid item xs="4" md="4" className={styles.logo}>
                         <h2>Covid19.</h2>
                     </Grid>
                 </Grid>

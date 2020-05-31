@@ -11,6 +11,7 @@ function App() {
         <Header/>
         <Cards/>
         <Content/>
+        <Footer/>
     </div>
   );
 }
