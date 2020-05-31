@@ -18,7 +18,7 @@ const Cards = () => {
                                 Confirmed
                             </Typography>
                         </CardContent>
-                        <Typography variant="body2" color="textSecondary" component="p">
+                        <Typography className={styles.cardbody}>
                             Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
                             across all continents except Antarctica
                         </Typography>
