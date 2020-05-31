@@ -1,10 +1,7 @@
 import React from 'react';
-import { makeStyles, StylesProvider } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
@@ -17,7 +14,7 @@ const Content = () => {
                 <Grid item xs="3" md="3">
                     <Card className={styles.confirmed}>
                         <CardContent>
-                            <Typography gutterBottom variant="5" component="h2">
+                            <Typography gutterBottom variant="5" component="h2" className={styles.cardtitle}>
                                 Confirmed
                             </Typography>
                         </CardContent>
@@ -38,7 +35,7 @@ const Content = () => {
                 <Grid item xs="3" md="3">
                     <Card className={styles.recovered}>
                         <CardContent>
-                            <Typography gutterBottom variant="5" component="h2">
+                            <Typography gutterBottom variant="5" component="h2" className={styles.cardtitle}>
                                 Recovered
                             </Typography>
                         </CardContent>
@@ -59,7 +56,7 @@ const Content = () => {
                 <Grid item xs="3" md="3">
                     <Card className={styles.death}>
                         <CardContent>
-                            <Typography gutterBottom variant="5" component="h2">
+                            <Typography gutterBottom variant="5" component="h2" className={styles.cardtitle}>
                                 Deaths
                             </Typography>
                         </CardContent>
