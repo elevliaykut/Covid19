@@ -12,10 +12,10 @@ import styles from './Content.module.css';
 
 const Content = () => {
     return (
-        <div className="content">
-            <Grid container item xs="12" md="12">
-                <Grid item xs="3" md="3" className={styles.confirmed}>
-                    <Card>
+        <div className={styles.content}>
+            <Grid container spacing={4} item xs="12" md="12">
+                <Grid item xs="3" md="3">
+                    <Card className={styles.confirmed}>
                         <CardContent>
                             <Typography gutterBottom variant="5" component="h2">
                                 Confirmed
@@ -35,8 +35,8 @@ const Content = () => {
                         </CardActions>
                     </Card>
                 </Grid>
-                <Grid item xs="3" md="3" className={styles.recovered}>
-                    <Card>
+                <Grid item xs="3" md="3">
+                    <Card className={styles.recovered}>
                         <CardContent>
                             <Typography gutterBottom variant="5" component="h2">
                                 Recovered
@@ -56,8 +56,8 @@ const Content = () => {
                         </CardActions>
                     </Card>
                 </Grid>
-                <Grid item xs="3" md="3" className={styles.death}>
-                    <Card>
+                <Grid item xs="3" md="3">
+                    <Card className={styles.death}>
                         <CardContent>
                             <Typography gutterBottom variant="5" component="h2">
                                 Deaths

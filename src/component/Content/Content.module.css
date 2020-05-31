@@ -1,3 +1,19 @@
+.content {}
+
 .confirmed {
     padding: 25px;
+    margin-top: -100px;
+    height: 300px;
+}
+
+.recovered {
+    padding: 25px;
+    margin-top: -100px;
+    height: 300px;
+}
+
+.death {
+    padding: 25px;
+    margin-top: -100px;
+    height: 300px;
 }
