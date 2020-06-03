@@ -23,3 +23,34 @@
 .paragraph {
     text-align: right;
 }
+
+.preventions {
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-width: 30px;
+    border-bottom-color: #4f48ec;
+}
+
+.washhands {
+    padding-top: 30px;
+}
+
+.handicon {
+    width: 10%;
+}
+
+.usemask {
+    padding-top: 30px;
+}
+
+.maskicon {
+    width: 10%;
+}
+
+.disinfect {
+    padding-top: 30px;
+}
+
+.disinfecticon {
+    width: 10%;
+}
