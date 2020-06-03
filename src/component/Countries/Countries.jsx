@@ -2,7 +2,8 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from './Countries.module.css';
 
-const Countries = () => {
+const Countries = (props) => {
+    console.log(props)
     return (
         <div>
             <Grid container item xs={12} md={12} className={styles.content}>
@@ -10,7 +11,7 @@ const Countries = () => {
                     <h3>ALSO SEE</h3>
                 </Grid>
                 <Grid item xs={6} md={6}>
-                    sol
+                    {props.countrydata}
                 </Grid>
                 <Grid item xs={6} md={6}>
                     sog
