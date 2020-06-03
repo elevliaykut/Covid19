@@ -5,9 +5,10 @@ import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import styles from './Cards.module.css';
 import Icon from '../../icons/running.svg';
+import CountUp from 'react-countup';
 
-const Cards = ( {data: { confirmed, recovered, deaths }}) => {
-    if(!confirmed) {
+const Cards = ({ data: { confirmed, recovered, deaths } }) => {
+    if (!confirmed) {
         return "loading";
     }
     return (
@@ -26,7 +27,7 @@ const Cards = ( {data: { confirmed, recovered, deaths }}) => {
                             </Grid>
                             <Grid container item xs="12" md="12" className={styles.cardbody}>
                                 <Grid item xs="12" md="12" className={styles.value}>
-                                    {confirmed.value}
+                                    <CountUp start={0} end={confirmed.value} duration={2.5} separator="," />
                                 </Grid>
                                 <Grid item xs="12" md="12" className={styles.label}>
                                     People
@@ -48,7 +49,7 @@ const Cards = ( {data: { confirmed, recovered, deaths }}) => {
                             </Grid>
                             <Grid container item xs="12" md="12" className={styles.cardbody}>
                                 <Grid item xs="12" md="12" className={styles.value}>
-                                    {recovered.value}
+                                    <CountUp start={0} end={recovered.value} duration={2.5} separator=","/>
                                 </Grid>
                                 <Grid item xs="12" md="12" className={styles.label}>
                                     People
@@ -70,7 +71,7 @@ const Cards = ( {data: { confirmed, recovered, deaths }}) => {
                             </Grid>
                             <Grid container item xs="12" md="12" className={styles.cardbody}>
                                 <Grid item xs="12" md="12" className={styles.value}>
-                                    {deaths.value}
+                                    <CountUp start={0} end={deaths.value} duration={2.5} separator=","/>
                                 </Grid>
                                 <Grid item xs="12" md="12" className={styles.label}>
                                     People
