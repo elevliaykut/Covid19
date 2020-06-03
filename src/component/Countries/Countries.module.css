@@ -1,0 +1,13 @@
+.content {
+    width: 100%;
+    background-color: #100e34;
+}
+
+.title {
+    text-align: left;
+    padding: 50px;
+}
+
+.title h3 {
+    color: #ffff;
+}

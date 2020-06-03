@@ -11,7 +11,9 @@ const Footer = () => {
     return (
         <div>
             <Grid container item xs={12} md={12} className={styles.footer}>
-                <h3>Project By Aykut Elevli</h3>
+                <Grid item={12} md={12} className={styles.title}>
+                    <h3>A project by Aykut ELEVLİ</h3>
+                </Grid>
             </Grid>
         </div>
     );
