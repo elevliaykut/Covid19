@@ -17,9 +17,11 @@ const Content = () => {
                 </Grid>
                 <Grid item xs={3} md={3} className={styles.stayathome}>
                     <h2>📍Stay At Home</h2>
-                    <Typography  color="textSecondary">
+                    <Typography  color="textSecondary" className={styles.paragraph}>
                         Today is equal to day and night in the northern hemisphere.We say stay at 
-                        home for our health while we will meet the spring.
+                        home for our health while we will meet the spring.Sağlıklı günler için, bu
+                        günleri sosyal mesafeyi korurken sevdiklerimizle birlikte evde geçirelim.
+                        I wish all the seasons and the days we will live in contact with nature are close.
                     </Typography>
                 </Grid>
             </Grid>
