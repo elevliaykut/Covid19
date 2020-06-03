@@ -3,7 +3,15 @@
     background-color: #f5f5f5;
 }
 
-.confirmed {
+.confirmedicon {
+    width: 20px;
+    background-color: #4CAF50;
+    opacity: 80%;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.confirmedcart {
     padding: 25px;
     margin-top: -100px;
     height: 270px;
@@ -12,10 +20,14 @@
     border-bottom-color: #FFBF18;
 }
 
-.cardtitle {
+.cardheader {
     border-bottom-style: solid;
-    padding: 15px;
-    width: 90%;
+    width: 100%;
+}
+
+.title {
+    padding-right: 20px;
+    margin-bottom: 1px;
 }
 
 .recovered {
@@ -26,6 +38,22 @@
     border-bottom-width: 30px;
     border-bottom-color: #FFBF18;
     margin-left: 10px;
+}
+
+.recoveredicon {
+    width: 20px;
+    background-color: #FFBF18;
+    opacity: 70%;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.deathicon {
+    width: 20px;
+    background-color: #df0404;
+    opacity: 70%;
+    border-radius: 10px;
+    padding: 8px;
 }
 
 .death {
