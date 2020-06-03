@@ -14,10 +14,25 @@
 .confirmedcart {
     padding: 25px;
     margin-top: -100px;
-    height: 270px;
+    height: 250px;
     border-bottom-style: solid;
-    border-bottom-width: 30px;
+    border-bottom-width: 50px;
     border-bottom-color: #FFBF18;
+}
+
+.value {
+    padding: 28px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+}
+
+.label {
+    padding-left: 50px;
+    font-size: 25px;
+    opacity: 0.7;
+    font-weight: bold;
+    text-align: left;
 }
 
 .cardheader {
@@ -33,9 +48,9 @@
 .recovered {
     padding: 25px;
     margin-top: -100px;
-    height: 270px;
+    height: 250px;
     border-bottom-style: solid;
-    border-bottom-width: 30px;
+    border-bottom-width: 50px;
     border-bottom-color: #FFBF18;
     margin-left: 10px;
 }
@@ -59,10 +74,10 @@
 .death {
     padding: 25px;
     margin-top: -100px;
-    height: 270px;
+    height: 250px;
     border-bottom-style: solid;
     border-bottom-style: solid;
-    border-bottom-width: 30px;
+    border-bottom-width: 50px;
     border-bottom-color: #FFBF18;
     margin-left: 10px;
 }

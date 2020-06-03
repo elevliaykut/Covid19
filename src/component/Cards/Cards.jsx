@@ -6,7 +6,10 @@ import Grid from '@material-ui/core/Grid';
 import styles from './Cards.module.css';
 import Icon from '../../icons/running.svg';
 
-const Cards = () => {
+const Cards = ( {data: { confirmed, recovered, deaths }}) => {
+    if(!confirmed) {
+        return "loading";
+    }
     return (
         <div>
             <Grid container item xs="12" md="12" className={styles.content}>
@@ -22,10 +25,10 @@ const Cards = () => {
                                 </Grid>
                             </Grid>
                             <Grid container item xs="12" md="12" className={styles.cardbody}>
-                                <Grid item xs="12" md="12">
-                                    rakam
+                                <Grid item xs="12" md="12" className={styles.value}>
+                                    {confirmed.value}
                                 </Grid>
-                                <Grid item xs="12" md="12"> 
+                                <Grid item xs="12" md="12" className={styles.label}>
                                     People
                                 </Grid>
                             </Grid>
@@ -43,17 +46,21 @@ const Cards = () => {
                                     <h3>Total Recovered</h3>
                                 </Grid>
                             </Grid>
+                            <Grid container item xs="12" md="12" className={styles.cardbody}>
+                                <Grid item xs="12" md="12" className={styles.value}>
+                                    {recovered.value}
+                                </Grid>
+                                <Grid item xs="12" md="12" className={styles.label}>
+                                    People
+                                </Grid>
+                            </Grid>
                         </CardContent>
-                        <Typography variant="body2" color="textSecondary" component="p">
-                            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                            across all continents except Antarctica
-                        </Typography>
                     </Card>
                 </Grid>
                 <Grid item xs="3" md="3">
                     <Card className={styles.death}>
                         <CardContent>
-                        <Grid container item xs="12" md="12" className={styles.cardheader}>
+                            <Grid container item xs="12" md="12" className={styles.cardheader}>
                                 <Grid item xs="2" md="2">
                                     <img src={Icon} className={styles.deathicon} />
                                 </Grid>
@@ -61,11 +68,15 @@ const Cards = () => {
                                     <h3>Total Death</h3>
                                 </Grid>
                             </Grid>
+                            <Grid container item xs="12" md="12" className={styles.cardbody}>
+                                <Grid item xs="12" md="12" className={styles.value}>
+                                    {deaths.value}
+                                </Grid>
+                                <Grid item xs="12" md="12" className={styles.label}>
+                                    People
+                                </Grid>
+                            </Grid>
                         </CardContent>
-                        <Typography variant="body2" color="textSecondary" component="p">
-                            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                            across all continents except Antarctica
-                        </Typography>
                     </Card>
                 </Grid>
             </Grid>

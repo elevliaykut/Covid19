@@ -14,15 +14,15 @@ class App extends React.Component {
   }
 
   async componentDidMount() {
-    const fetchData = await fetchData();
-    this.setState({data: fetchData})
+    const fetchdata = await fetchData();
+    this.setState({ data: fetchdata })
   }
-  
+
   render() {
     return (
       <div className="App">
         <Header />
-        <Cards />
+        <Cards data={this.state.data} />
         <Content />
         <Footer />
       </div>
