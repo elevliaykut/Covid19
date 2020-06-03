@@ -11,7 +11,7 @@ const Countries = (props) => {
                     <h3>ALSO SEE</h3>
                 </Grid>
                 <Grid item xs={6} md={6}>
-                    {props.countrydata}
+                    as
                 </Grid>
                 <Grid item xs={6} md={6}>
                     sog
