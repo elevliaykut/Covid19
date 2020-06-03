@@ -4,6 +4,7 @@ import './App.css';
 import Header from './component/Header/Header';
 import Cards from './component/Cards/Cards';
 import Content from './component/Content/Content';
+import Preventions from './component/Preventions/Preventions';
 import Countries from './component/Countries/Countries';
 import Footer from './component/Footer/Footer';
 import { fetchData } from './api';
@@ -25,6 +26,7 @@ class App extends React.Component {
         <Header/>
         <Cards data={this.state.data} />
         <Content/>
+        <Preventions/>
         <Countries/>
         <Footer/>
       </div>

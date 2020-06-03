@@ -1,15 +1,8 @@
 import React from 'react';
-import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import styles from './Content.module.css';
 import Map from '../../icons/map.svg';
-import Hand from '../../icons/hand.svg';
-import Mask from '../../icons/mask.svg';
-import Disinfect from '../../icons/disinfection.svg';
 
 const Content = () => {
     return (
