@@ -3,7 +3,7 @@ import Grid from '@material-ui/core/Grid';
 import styles from './Countries.module.css';
 
 const Countries = (props) => {
-    console.log(props)
+    console.log(props);
     return (
         <div>
             <Grid container item xs={12} md={12} className={styles.content}>
