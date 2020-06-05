@@ -3,6 +3,7 @@ import Grid from '@material-ui/core/Grid';
 import styles from './Symptomps.module.css';
 import Headache from '../../icons/pain.svg';
 import Cough from '../../icons/cough.svg';
+import Fever from '../../icons/sick.svg';
 
 function Symptomps() {
     return (
@@ -18,6 +19,10 @@ function Symptomps() {
                 <Grid item xs={4} md={4} className={styles.cough}>
                     <img src={Cough} className={styles.caughicon}/>
                     <h4>Cough</h4>
+                </Grid>
+                <Grid item xs={4} md={4} className={styles.fever}>
+                    <img src={Fever} className={styles.fevericon}/>
+                    <h4>Fever</h4>
                 </Grid>
             </Grid>
         </div>
