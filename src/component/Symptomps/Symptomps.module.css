@@ -1,0 +1,19 @@
+.content {
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.symptomps {
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-width: 30px;
+    border-bottom-color: #4f48ec
+}
+
+.headache {
+    padding-top: 30px;
+}
+
+.headacheicon {
+    width: 10%;
+}
