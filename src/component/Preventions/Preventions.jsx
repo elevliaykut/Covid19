@@ -14,7 +14,13 @@ const Preventions = () => {
                 </Grid>
                 <Grid item xs={4} md={4} className={styles.washhands}>
                     <img src={Hand} className={styles.handicon} />
-                    <h4>Wash Hands</h4>
+                    <h4>Wash Your Hands</h4>
+                    <h5>Wash your hands regularly, especially: </h5>
+                    <li>after blowing your nose, coughing or sneezing. </li>
+                    <li>after touching surfaces outside of the home.</li>
+                    <li>after touching money. </li>
+                    <li>before, during and after caring for a sick or vulnerable person. </li>
+                    <li>before and after eating. </li>
                 </Grid>
                 <Grid item xs={4} md={4} className={styles.usemask}>
                     <img src={Mask} className={styles.maskicon} />
