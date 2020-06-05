@@ -30,6 +30,11 @@
     padding-top: 30px;
 }
 
+.usemask p {
+    padding: 5px;
+    color: #343a40;
+}
+
 .maskicon {
     width: 10%;
 }
