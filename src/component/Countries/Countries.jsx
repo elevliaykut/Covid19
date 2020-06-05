@@ -1,20 +1,31 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from './Countries.module.css';
+import { fetchCountry } from '../../api';
 
-const Countries = (props) => {
-    console.log(props);
+const Countries = () => {
+
+    const [fetchedCountries, setFetchedCountries] = useState([]);
+
+    useEffect(() => {
+        const fetchAPI = async () => {
+            setFetchedCountries(await fetchCountry());
+        }
+
+        fetchAPI();
+    }, [setFetchedCountries]);
+
     return (
         <div>
             <Grid container item xs={12} md={12} className={styles.content}>
                 <Grid item xs={8} md={8} className={styles.title}>
                     <h3>ALSO SEE</h3>
                 </Grid>
-                <Grid item xs={6} md={6}>
-                    as
+                <Grid item xs={4} md={8} className={styles.total}>
+                    {fetchedCountries.length}
                 </Grid>
-                <Grid item xs={6} md={6}>
-                    sog
+                <Grid item xs={12} md={12} className={styles.countries}>
+                    {fetchedCountries.map((country, i) => <div key={i} value={country}>{country}</div>)}
                 </Grid>
             </Grid>
         </div>

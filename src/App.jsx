@@ -6,31 +6,27 @@ import Content from './component/Content/Content';
 import Preventions from './component/Preventions/Preventions';
 import Countries from './component/Countries/Countries';
 import Footer from './component/Footer/Footer';
-import { fetchData, fetchCountry } from './api';
+import { fetchData } from './api';
 
 class App extends React.Component {
 
   state = {
-    data: {},
-    countries: {}
+    data: {}
   }
 
   async componentDidMount() {
     const fetchdata = await fetchData();
     this.setState({ data: fetchdata });
-    
-    const fetchcountry = await fetchCountry();
-    this.setState({countries: fetchcountry});
   }
   render() {
     return (
       <div className="App">
-        <Header/>
+        <Header />
         <Cards data={this.state.data} />
-        <Content/>
-        <Preventions/>
-        <Countries countrydata={this.state.countries}/>
-        <Footer/>
+        <Content />
+        <Preventions />
+        <Countries />
+        <Footer />
       </div>
     );
   }
