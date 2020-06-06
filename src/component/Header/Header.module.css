@@ -1,6 +1,6 @@
 .header {
     background-color: #4f48ec;
-    height: 350px;
+    height: 260px;
 }
 
 .logo {
@@ -8,4 +8,8 @@
     font-weight: bold;
     font-size: 24px;
     padding: 25px;
+}
+
+.logo h3 {
+    text-align: right;
 }

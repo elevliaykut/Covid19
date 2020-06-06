@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
-import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import styles from './Header.module.css';
-import { Typography } from '@material-ui/core';
 
 class Header extends Component {
     render() {
@@ -11,7 +8,7 @@ class Header extends Component {
             <div className="Header">
                 <Grid container item xs="12" md="12" className={styles.header}>
                     <Grid item xs="4" md="4" className={styles.logo}>
-                        <h2>Covid19.</h2>
+                        <h3>Get to know about COVID-19.</h3>
                     </Grid>
                 </Grid>
             </div>
