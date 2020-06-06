@@ -27,12 +27,14 @@ const Preventions = () => {
                     <h4>Use Mask</h4>
                     <h5>Use mask regularly, especially: </h5>
                     <p>Since the start of the coronavirus outbreak some places have fully embraced wearing face mask, and anyone
-                        caught without one risk becoming a social pariah.
+                    caught without one risk becoming a social pariah.
                     </p>
                 </Grid>
                 <Grid item xs={4} md={4} className={styles.disinfect}>
                     <img src={Disinfect} className={styles.disinfecticon} />
                     <h4>Disinfect</h4>
+                    <li>after someone with suspected coronavirus (COVID-19)</li>
+                    <li>wear disposable or washing-up gloves and aprons for cleaning.</li>
                 </Grid>
             </Grid>
         </div>

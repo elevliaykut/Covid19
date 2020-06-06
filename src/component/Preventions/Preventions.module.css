@@ -46,3 +46,10 @@
 .disinfecticon {
     width: 10%;
 }
+
+.disinfect li {
+    padding: 6px;
+    color: #343a40;
+    text-align: left;
+    margin-left: 60px;
+}
