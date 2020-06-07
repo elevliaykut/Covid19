@@ -12,6 +12,7 @@ const Footer = () => {
                 </Grid>
                 <Grid item={2} md={2} className={styles.githubLogo}>
                     <img src={Github} className={styles.github}/>
+                    <h5>Github</h5>
                 </Grid>
             </Grid>
         </div>
