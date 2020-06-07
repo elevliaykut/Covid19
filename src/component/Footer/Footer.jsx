@@ -14,15 +14,15 @@ const Footer = () => {
                 </Grid>
                 <Grid item xs={2} md={2} className={styles.githubLogo}>
                     <img src={Github} className={styles.github}/>
-                    <h5>Github</h5>
+                    <h4>Github</h4>
                 </Grid>
                 <Grid item xs={2} md={2} className={styles.linkedinLogo}>
                     <img src={Linkedin} className={styles.linkedin}/>
-                    <h5>Linkedin</h5>
+                    <h4>Linkedin</h4>
                 </Grid>
                 <Grid item xs={2} md={2} className={styles.websiteLogo}>
                     <img src={WebSite} className={styles.website}/>
-                    <h5>WebSite</h5>
+                    <h4>WebSite</h4>
                 </Grid>
             </Grid>
         </div>
