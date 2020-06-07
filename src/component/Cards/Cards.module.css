@@ -41,7 +41,8 @@
 }
 
 .title {
-    padding-right: 20px;
+    text-align: left;
+    padding-left: 10px;
     margin-bottom: 1px;
 }
 

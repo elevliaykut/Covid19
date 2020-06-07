@@ -21,7 +21,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                                 <Grid item xs="2" md="2">
                                     <img src={Icon} className={styles.confirmedicon} />
                                 </Grid>
-                                <Grid item xs="5" md="5" className={styles.title}>
+                                <Grid item xs="10" md="10" className={styles.title}>
                                     <h3>Total Confirmed</h3>
                                 </Grid>
                             </Grid>
@@ -51,7 +51,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                                 <Grid item xs="2" md="2">
                                     <img src={Icon} className={styles.recoveredicon} />
                                 </Grid>
-                                <Grid item xs="6" md="6" className={styles.title}>
+                                <Grid item xs="10" md="10" className={styles.title}>
                                     <h3>Total Recovered</h3>
                                 </Grid>
                             </Grid>
@@ -81,7 +81,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                                 <Grid item xs="2" md="2">
                                     <img src={Icon} className={styles.deathicon} />
                                 </Grid>
-                                <Grid item xs="4" md="4" className={styles.title}>
+                                <Grid item xs="10" md="10" className={styles.title}>
                                     <h3>Total Death</h3>
                                 </Grid>
                             </Grid>
