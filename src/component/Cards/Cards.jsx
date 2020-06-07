@@ -68,7 +68,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                                     <img src={Time} className={styles.timeicon} />
                                 </Grid>
                                 <Grid item="7" md="7" className={styles.date}>
-                                    <h4>{lastUpdate}</h4>
+                                    <h4>{new Date(lastUpdate).toDateString()}</h4>
                                 </Grid>
                             </Grid>
                         </CardContent>
@@ -98,7 +98,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                                     <img src={Time} className={styles.timeicon} />
                                 </Grid>
                                 <Grid item="7" md="7" className={styles.date}>
-                                    <h4>{lastUpdate}</h4>
+                                    <h4>{new Date(lastUpdate).toDateString()}</h4>
                                 </Grid>
                             </Grid>
                         </CardContent>
