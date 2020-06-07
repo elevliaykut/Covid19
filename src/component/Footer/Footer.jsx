@@ -18,19 +18,24 @@ const Footer = () => {
                         <img src={Github} className={styles.github} />
                         <h4>Github</h4>
                     </a>
-                    
                 </Grid>
                 <Grid item xs={2} md={2} className={styles.linkedinLogo}>
-                    <img src={Linkedin} className={styles.linkedin} />
-                    <h4>Linkedin</h4>
+                    <a href="https://www.linkedin.com/in/aykut-elevli/">
+                        <img src={Linkedin} className={styles.linkedin} />
+                        <h4>Linkedin</h4>
+                    </a>
                 </Grid>
                 <Grid item xs={2} md={2} className={styles.mediumLogo}>
-                    <img src={Medium} className={styles.medium} />
-                    <h4>Medium</h4>
+                    <a href="https://medium.com/@elevli.aykut.28">
+                        <img src={Medium} className={styles.medium} />
+                        <h4>Medium</h4>
+                    </a>
                 </Grid>
                 <Grid item xs={2} md={2} className={styles.websiteLogo}>
-                    <img src={WebSite} className={styles.website} />
-                    <h4>WebSite</h4>
+                    <a href ="https://aykutelevli.me/">
+                        <img src={WebSite} className={styles.website} />
+                        <h4>WebSite</h4>
+                    </a>
                 </Grid>
             </Grid>
         </div>

@@ -33,3 +33,11 @@
 .medium {
     width: 15%;
 }
+
+a {
+    text-decoration: none !important;
+}
+
+a {
+    color: #aaa;
+}
