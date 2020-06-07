@@ -5,8 +5,9 @@ import Grid from '@material-ui/core/Grid';
 import styles from './Cards.module.css';
 import Icon from '../../icons/running.svg';
 import CountUp from 'react-countup';
+import Time from '../../icons/clock.svg';
 
-const Cards = ({ data: { confirmed, recovered, deaths } }) => {
+const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
     if (!confirmed) {
         return "loading";
     }
@@ -32,6 +33,14 @@ const Cards = ({ data: { confirmed, recovered, deaths } }) => {
                                     People
                                 </Grid>
                             </Grid>
+                            <Grid container item xs="12" md="12" className={styles.cardfooter}>
+                                <Grid item xs="2" md="2">
+                                    <img src={Time} className={styles.timeicon} />
+                                </Grid>
+                                <Grid item="7" md="7" className={styles.date}>
+                                    <h4>{new Date(lastUpdate).toDateString()}</h4>
+                                </Grid>
+                            </Grid>
                         </CardContent>
                     </Card>
                 </Grid>
@@ -48,10 +57,18 @@ const Cards = ({ data: { confirmed, recovered, deaths } }) => {
                             </Grid>
                             <Grid container item xs="12" md="12" className={styles.cardbody}>
                                 <Grid item xs="12" md="12" className={styles.value}>
-                                    <CountUp start={0} end={recovered.value} duration={2.5} separator=","/>
+                                    <CountUp start={0} end={recovered.value} duration={2.5} separator="," />
                                 </Grid>
                                 <Grid item xs="12" md="12" className={styles.label}>
                                     People
+                                </Grid>
+                            </Grid>
+                            <Grid container item xs="12" md="12" className={styles.cardfooter}>
+                                <Grid item xs="2" md="2">
+                                    <img src={Time} className={styles.timeicon} />
+                                </Grid>
+                                <Grid item="7" md="7" className={styles.date}>
+                                    <h4>{lastUpdate}</h4>
                                 </Grid>
                             </Grid>
                         </CardContent>
@@ -70,10 +87,18 @@ const Cards = ({ data: { confirmed, recovered, deaths } }) => {
                             </Grid>
                             <Grid container item xs="12" md="12" className={styles.cardbody}>
                                 <Grid item xs="12" md="12" className={styles.value}>
-                                    <CountUp start={0} end={deaths.value} duration={2.5} separator=","/>
+                                    <CountUp start={0} end={deaths.value} duration={2.5} separator="," />
                                 </Grid>
                                 <Grid item xs="12" md="12" className={styles.label}>
                                     People
+                                </Grid>
+                            </Grid>
+                            <Grid container item xs="12" md="12" className={styles.cardfooter}>
+                                <Grid item xs="2" md="2">
+                                    <img src={Time} className={styles.timeicon} />
+                                </Grid>
+                                <Grid item="7" md="7" className={styles.date}>
+                                    <h4>{lastUpdate}</h4>
                                 </Grid>
                             </Grid>
                         </CardContent>
