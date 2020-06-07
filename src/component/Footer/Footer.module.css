@@ -5,12 +5,15 @@
 }
 
 .title {
-    text-align: left;
+    text-align: center;
 }
 
 .title h3 {
-    padding: 20px;
+    width: 40%;
+    background-color: #4f48ec;
+    padding: 10px;
     color: #fff;
+    font-size: 15px;
 }
 
 .github {
@@ -19,5 +22,9 @@
 }
 
 .linkedin {
+    width: 15%;
+}
+
+.website {
     width: 15%;
 }
