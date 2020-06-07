@@ -4,8 +4,16 @@
     background-color: #100e34;
 }
 
+.title {
+    text-align: left;
+}
+
 .title h3 {
-    text-align: center;
     padding: 20px;
+    color: #fff;
+}
+
+.github {
+    width: 20%;
     color: #fff;
 }
