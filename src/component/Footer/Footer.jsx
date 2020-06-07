@@ -4,12 +4,13 @@ import styles from './Footer.module.css';
 import Github from '../../icons/github.svg';
 import Linkedin from '../../icons/linkedin.svg';
 import WebSite from '../../icons/website.svg';
+import Medium from '../../icons/medium.svg';
 
 const Footer = () => {
     return (
         <div>
             <Grid container item xs={12} md={12} className={styles.footer}>
-                <Grid item xs={6} md={6} className={styles.title}>
+                <Grid item xs={4} md={4} className={styles.title}>
                     <h3>A project by Aykut ELEVLİ</h3>
                 </Grid>
                 <Grid item xs={2} md={2} className={styles.githubLogo}>
@@ -19,6 +20,10 @@ const Footer = () => {
                 <Grid item xs={2} md={2} className={styles.linkedinLogo}>
                     <img src={Linkedin} className={styles.linkedin}/>
                     <h4>Linkedin</h4>
+                </Grid>
+                <Grid item xs={2} md={2} className={styles.mediumLogo}>
+                    <img src={WebSite} className={styles.medium}/>
+                    <h4>Medium</h4>
                 </Grid>
                 <Grid item xs={2} md={2} className={styles.websiteLogo}>
                     <img src={WebSite} className={styles.website}/>
