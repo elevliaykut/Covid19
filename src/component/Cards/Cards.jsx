@@ -34,12 +34,12 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                                     People
                                 </Grid>
                             </Grid>
-                            <Grid container item xs="12" md="12" className={styles.cardfooter}>
+                            <Grid container className={styles.cardfooter}>
                                 <Grid item xs="2" md="2">
                                     <img src={Time} className={styles.timeicon} />
                                 </Grid>
                                 <Grid item="7" md="7" className={styles.date}>
-                                    <h4>{new Date(lastUpdate).toDateString()}</h4>
+                                    <h6>{new Date(lastUpdate).toDateString()}</h6>
                                 </Grid>
                             </Grid>
                         </CardContent>
