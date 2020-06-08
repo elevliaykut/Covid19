@@ -13,14 +13,19 @@
 }
 
 .stayathome h2 {
-    text-align: right;
-    padding-top: 50px;
-}
-
-.history {
-    font-size: 50px;
+    padding-left: 20px;
+    text-align: left;
 }
 
 .paragraph {
-    text-align: right;
+    padding: 30px;
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+@media (max-width:600px) {
+    .map {
+        margin-top: 10px;
+        width: 100% !important;
+    }
 }
