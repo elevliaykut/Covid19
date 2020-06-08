@@ -6,15 +6,16 @@ import styles from './Cards.module.css';
 import Icon from '../../icons/running.svg';
 import CountUp from 'react-countup';
 import Time from '../../icons/clock.svg';
+import { Container, Row, Col } from 'reactstrap';
 
 const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
     if (!confirmed) {
         return "loading";
     }
     return (
-        <div>
-            <Grid container item xs="12" md="12" className={styles.content}>
-                <Grid item xs="3" md="3">
+        <Container>
+            <Row>
+                <Col>
                     <Card className={styles.confirmedcart}>
                         <CardContent>
                             <Grid container item xs="12" md="12" className={styles.cardheader}>
@@ -43,8 +44,8 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                             </Grid>
                         </CardContent>
                     </Card>
-                </Grid>
-                <Grid item xs="3" md="3">
+                </Col>
+                <Col>
                     <Card className={styles.recovered}>
                         <CardContent>
                             <Grid container item xs="12" md="12" className={styles.cardheader}>
@@ -73,8 +74,8 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                             </Grid>
                         </CardContent>
                     </Card>
-                </Grid>
-                <Grid item xs="3" md="3">
+                </Col>
+                <Col>
                     <Card className={styles.death}>
                         <CardContent>
                             <Grid container item xs="12" md="12" className={styles.cardheader}>
@@ -103,9 +104,9 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                             </Grid>
                         </CardContent>
                     </Card>
-                </Grid>
-            </Grid>
-        </div>
+                </Col>
+            </Row>
+        </Container>
     );
 }
 
