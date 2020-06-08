@@ -13,7 +13,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
         return "loading";
     }
     return (
-        <Container>
+        <Container className={styles.content}>
             <Row>
                 <Col>
                     <Card className={styles.confirmedcart}>
@@ -69,7 +69,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                                     <img src={Time} className={styles.timeicon} />
                                 </Grid>
                                 <Grid item="7" md="7" className={styles.date}>
-                                    <h4>{new Date(lastUpdate).toDateString()}</h4>
+                                    <h6>{new Date(lastUpdate).toDateString()}</h6>
                                 </Grid>
                             </Grid>
                         </CardContent>
@@ -99,7 +99,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                                     <img src={Time} className={styles.timeicon} />
                                 </Grid>
                                 <Grid item="7" md="7" className={styles.date}>
-                                    <h4>{new Date(lastUpdate).toDateString()}</h4>
+                                    <h6>{new Date(lastUpdate).toDateString()}</h6>
                                 </Grid>
                             </Grid>
                         </CardContent>
