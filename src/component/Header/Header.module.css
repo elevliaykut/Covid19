@@ -1,11 +1,20 @@
-.header {
-    background-color: #4f48ec;
-    height: 260px;
-}
-
-.title {
-    color: #fff;
-    font-weight: bold;
-    font-size: 24px;
-    padding: 25px;
-}
+    .header {
+        background-color: #4f48ec;
+        height: 260px;
+    }
+    
+    .title {
+        color: #fff;
+        font-weight: bold;
+        font-size: 24px;
+        padding: 60px;
+    }
+    
+    @media (max-width:600px) {
+        .header {
+            height: 160px;
+        }
+        .title {
+            padding: 50px;
+        }
+    }
