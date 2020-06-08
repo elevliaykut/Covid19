@@ -6,7 +6,7 @@ import styles from './Cards.module.css';
 import Icon from '../../icons/running.svg';
 import CountUp from 'react-countup';
 import Time from '../../icons/clock.svg';
-import { Container, Row, Col } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 
 const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
     if (!confirmed) {
