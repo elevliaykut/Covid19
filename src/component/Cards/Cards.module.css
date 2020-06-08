@@ -1,6 +1,8 @@
 .content {
     justify-content: center;
     background-color: #f5f5f5;
+    width: 100%;
+    padding: 20px;
 }
 
 .confirmedicon {

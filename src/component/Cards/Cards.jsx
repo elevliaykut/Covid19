@@ -13,7 +13,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
         return "loading";
     }
     return (
-        <Container className={styles.content}>
+        <Grid item xs={12} md={12} className={styles.content}>
             <Row>
                 <Col>
                     <Card className={styles.confirmedcart}>
@@ -106,7 +106,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                     </Card>
                 </Col>
             </Row>
-        </Container>
+        </Grid>
     );
 }
 
