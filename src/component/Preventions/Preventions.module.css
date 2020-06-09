@@ -1,7 +1,8 @@
 .content {
-    width: 100%;
-    background-color: #f5f5f5;
     justify-content: center;
+    background-color: #f5f5f5;
+    width: 100%;
+    padding: 20px;
 }
 
 .preventions {
@@ -11,55 +12,10 @@
     border-bottom-color: #4f48ec;
 }
 
-.washhands {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.washhands li {
-    text-align: left;
-    padding: 6px;
-    color: #343a40;
+.washhandscard {
+    background-color: red;
 }
 
 .handicon {
-    width: 10%;
-}
-
-.usemask {
-    padding-top: 30px;
-}
-
-.usemask p {
-    padding: 5px;
-    color: #343a40;
-}
-
-.maskicon {
-    width: 10%;
-}
-
-.disinfect {
-    padding-top: 30px;
-}
-
-.disinfecticon {
-    width: 10%;
-}
-
-.disinfect li {
-    padding: 6px;
-    color: #343a40;
-    text-align: left;
-    margin-left: 60px;
-}
-
-@media (max-width:600px) {
-    .washhands {
-        width: 100% !important;
-        margin-top: 10px;
-    }
-    .handicon {
-        width: 80%;
-    }
+    width: 15%;
 }
