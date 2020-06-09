@@ -61,6 +61,6 @@ a {
         width: 100% !important;
     }
     .title h3 {
-        text-align: center;
+        padding-right: 100px;
     }
 }
