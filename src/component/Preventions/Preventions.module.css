@@ -20,36 +20,71 @@
 .washhandscard {
     margin-left: 10%;
     width: 25%;
+    border-bottom-style: solid;
+    border-bottom-width: 30px;
+    border-bottom-color: #FFBF18;
 }
 
 .handicon {
-    width: 15%;
+    width: 25%;
 }
 
 .washhandscontent {
     padding: 20px;
 }
 
+.washhandscontent h5 {
+    text-align: left;
+}
+
 .washhandscontent li {
+    padding: 8px;
     text-align: left;
 }
 
 .usemaskcard {
     margin-left: 4%;
     width: 25%;
+    border-bottom-style: solid;
+    border-bottom-width: 30px;
+    border-bottom-color: #FFBF18;
+}
+
+.usemaskcontent {
+    padding: 20px;
+}
+
+.usemaskcontent h5 {
+    text-align: left;
+}
+
+.usemaskcontent li {
+    padding: 8px;
+    text-align: left;
 }
 
 .maskicon {
-    width: 15%;
+    width: 25%;
 }
 
 .disinfectcard {
     margin-left: 4%;
     width: 25%;
+    border-bottom-style: solid;
+    border-bottom-width: 30px;
+    border-bottom-color: #FFBF18;
 }
 
 .disinfecticon {
-    width: 15%;
+    width: 25%;
+}
+
+.disinfectcontent {
+    padding: 20px;
+}
+
+.disinfectcontent li {
+    text-align: left;
 }
 
 @media (max-width: 600px) {

@@ -45,7 +45,7 @@ const Preventions = () => {
                             </Col>
                         </Row>
                         <Row>
-                            <Col className={styles.washhandscontent}>
+                            <Col className={styles.usemaskcontent}>
                                 <h4>Wash Your Hands</h4>
                                 <h5>Wash your hands regularly, especially: </h5>
                                 <li>after blowing your nose, coughing or sneezing. </li>
