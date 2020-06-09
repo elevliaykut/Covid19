@@ -12,10 +12,51 @@
     border-bottom-color: #4f48ec;
 }
 
+.cards {
+    margin-top: 4%;
+    width: 100%;
+}
+
 .washhandscard {
-    background-color: red;
+    margin-left: 10%;
+    width: 25%;
 }
 
 .handicon {
     width: 15%;
+}
+
+.washhandscontent {
+    padding: 20px;
+}
+
+.washhandscontent li {
+    text-align: left;
+}
+
+.usemaskcard {
+    margin-left: 4%;
+    width: 25%;
+}
+
+.maskicon {
+    width: 15%;
+}
+
+.disinfectcard {
+    margin-left: 4%;
+    width: 25%;
+}
+
+.disinfecticon {
+    width: 15%;
+}
+
+.disinfectcard {}
+
+@media (max-width: 600px) {
+    .washhandscard {
+        margin-top: 10px;
+        width: 100% !important;
+    }
 }

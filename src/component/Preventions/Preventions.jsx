@@ -16,7 +16,7 @@ const Preventions = () => {
                     <h2>Preventions</h2>
                 </Col>
             </Row>
-            <Row>
+            <Row className={styles.cards}>
                 <Card className={styles.washhandscard}>
                     <CardContent>
                         <Row>
@@ -33,6 +33,42 @@ const Preventions = () => {
                                 <li>after touching money. </li>
                                 <li>before, during and after caring for a sick or vulnerable person. </li>
                                 <li>before and after eating. </li>
+                            </Col>
+                        </Row>
+                    </CardContent>
+                </Card>
+                <Card className={styles.usemaskcard}>
+                    <CardContent>
+                        <Row>
+                            <Col>
+                                <img src={Mask} className={styles.maskicon} />
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col className={styles.washhandscontent}>
+                                <h4>Wash Your Hands</h4>
+                                <h5>Wash your hands regularly, especially: </h5>
+                                <li>after blowing your nose, coughing or sneezing. </li>
+                                <li>after touching surfaces outside of the home.</li>
+                                <li>after touching money. </li>
+                                <li>before, during and after caring for a sick or vulnerable person. </li>
+                                <li>before and after eating. </li>
+                            </Col>
+                        </Row>
+                    </CardContent>
+                </Card>
+                <Card className={styles.disinfectcard}>
+                    <CardContent>
+                        <Row>
+                            <Col>
+                                <img src={Disinfect} className={styles.disinfecticon} />
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col className={styles.disinfectcontent}>
+                                <h4>Disinfect</h4>
+                                <li>after someone with suspected coronavirus (COVID-19)</li>
+                                <li>wear disposable or washing-up gloves and aprons for cleaning.</li>
                             </Col>
                         </Row>
                     </CardContent>
