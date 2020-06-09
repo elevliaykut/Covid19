@@ -33,3 +33,25 @@
 .fevericon {
     width: 10%;
 }
+
+@media (max-width:600px) {
+    .headache {
+        padding: 40px;
+    }
+    .headache h4 {
+        font-size: 15px;
+    }
+    .headacheicon {
+        width: 50%;
+    }
+    .cough {
+        padding: 40px;
+    }
+    .cough h4 {
+        font-size: 15px;
+        text-align: center;
+    }
+    .caughicon {
+        width: 50%;
+    }
+}
