@@ -14,9 +14,19 @@
     border-radius: 0px 10px 0px 0px;
 }
 
+.githubLogo h4 {
+    font-size: 18px;
+    padding: 8px;
+}
+
 .github {
     width: 15%;
     border-left: #fff;
+}
+
+.linkedinLogo h4 {
+    font-size: 18px;
+    padding: 8px;
 }
 
 .linkedin {
