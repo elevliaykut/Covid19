@@ -33,8 +33,18 @@
     width: 15%;
 }
 
+.websiteLogo h4 {
+    font-size: 18px;
+    padding: 8px;
+}
+
 .website {
     width: 15%;
+}
+
+.mediumLogo h4 {
+    font-size: 18px;
+    padding: 8px;
 }
 
 .medium {
