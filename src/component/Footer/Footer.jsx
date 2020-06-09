@@ -9,47 +9,39 @@ import { Row, Col } from 'reactstrap';
 
 const Footer = () => {
     return (
-        <Grid item xs={12} md={12} className={styles.footer}>
-            <Row>
-                <Col>
-                    <Grid className={styles.title}>
+        <div>
+            <Grid item xs={12} md={12} className={styles.footer}>
+                <Row>
+                    <Col className={styles.title}>
                         <h3>A project by Aykut ELEVLİ</h3>
-                    </Grid>
-                </Col>
-                <Col>
-                    <Grid className={styles.githubLogo}>
+                    </Col>
+                    <Col className={styles.githubLogo}>
                         <a href="https://github.com/elevliaykut">
                             <img src={Github} className={styles.github} />
                             <h4>Github</h4>
                         </a>
-                    </Grid>
-                </Col>
-                <Col>
-                    <Grid className={styles.linkedinLogo}>
+                    </Col>
+                    <Col className={styles.linkedinLogo}>
                         <a href="https://www.linkedin.com/in/aykut-elevli/">
                             <img src={Linkedin} className={styles.linkedin} />
                             <h4>Linkedin</h4>
                         </a>
-                    </Grid>
-                </Col>
-                <Col>
-                    <Grid className={styles.mediumLogo}>
+                    </Col>
+                    <Col className={styles.mediumLogo}>
                         <a href="https://medium.com/@elevli.aykut.28">
                             <img src={Medium} className={styles.medium} />
                             <h4>Medium</h4>
                         </a>
-                    </Grid>
-                </Col>
-                <Col>
-                    <Grid className={styles.websiteLogo}>
+                    </Col>
+                    <Col className={styles.websiteLogo}>
                         <a href="https://aykutelevli.me/">
                             <img src={WebSite} className={styles.website} />
                             <h4>WebSite</h4>
                         </a>
-                    </Grid>
-                </Col>
-            </Row>
-        </Grid>
+                    </Col>
+                </Row>
+            </Grid>
+        </div>
 
     );
 }

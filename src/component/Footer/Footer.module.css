@@ -53,8 +53,7 @@
 
 a {
     text-decoration: none !important;
-}
-
-a {
     color: #aaa;
 }
+
+@media (max-width: 600px) {}
