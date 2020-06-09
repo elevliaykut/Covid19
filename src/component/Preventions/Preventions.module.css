@@ -1,6 +1,7 @@
 .content {
     width: 100%;
     background-color: #f5f5f5;
+    justify-content: center;
 }
 
 .preventions {
@@ -51,4 +52,14 @@
     color: #343a40;
     text-align: left;
     margin-left: 60px;
+}
+
+@media (max-width:600px) {
+    .washhands {
+        width: 100% !important;
+        margin-top: 10px;
+    }
+    .handicon {
+        width: 80%;
+    }
 }

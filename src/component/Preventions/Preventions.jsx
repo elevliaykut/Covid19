@@ -33,6 +33,12 @@ const Preventions = () => {
                     caught without one risk becoming a social pariah.
                     </p>
                 </Col>
+                <Col className={styles.disinfect}>
+                    <img src={Disinfect} className={styles.disinfecticon} />
+                    <h4>Disinfect</h4>
+                    <li>after someone with suspected coronavirus (COVID-19)</li>
+                    <li>wear disposable or washing-up gloves and aprons for cleaning.</li>
+                </Col>
             </Row>
         </Grid>
     );
