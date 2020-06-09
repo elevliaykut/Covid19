@@ -56,4 +56,11 @@ a {
     color: #aaa;
 }
 
-@media (max-width: 600px) {}
+@media (max-width: 600px) {
+    .title {
+        width: 100% !important;
+    }
+    .title h3 {
+        text-align: center;
+    }
+}
