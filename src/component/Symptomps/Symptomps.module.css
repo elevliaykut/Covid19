@@ -54,4 +54,13 @@
     .caughicon {
         width: 50%;
     }
+    .fever {
+        padding: 40px;
+    }
+    .fever h4 {
+        font-size: 15px;
+    }
+    .fevericon {
+        width: 50%;
+    }
 }
