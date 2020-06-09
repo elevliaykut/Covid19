@@ -52,10 +52,16 @@
     width: 15%;
 }
 
-.disinfectcard {}
-
 @media (max-width: 600px) {
     .washhandscard {
+        margin-top: 10px;
+        width: 100% !important;
+    }
+    .usemaskcard {
+        margin-top: 10px;
+        width: 100% !important;
+    }
+    .disinfectcard {
         margin-top: 10px;
         width: 100% !important;
     }
