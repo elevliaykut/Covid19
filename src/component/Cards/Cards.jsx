@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Grid from '@material-ui/core/Grid';
@@ -17,14 +17,27 @@ class Cards extends Component {
             confiemed: '',
             recovered: '',
             deaths: '',
-            lastUpdate: ''
+            lastUpdate: '',
+            loadded: false
         }
     }
 
     componentDidMount() {
-        totalValues();
+        totalValues().then(res => {
+            this.setState({
+                confirmed: res.confirmed.value,
+                recovered: res.recovered.value,
+                deaths: res.deaths.value,
+                lastUpdate: res.lastUpdate,
+                loadded: true
+            })
+        });
+
     }
     render() {
+        if (!this.state.loadded) {
+            return <div>Loadding</div>
+        }
         return (
             <Grid item xs={12} md={12} className={styles.content}>
                 <Row>
@@ -52,7 +65,7 @@ class Cards extends Component {
                                         <img src={Time} className={styles.timeicon} />
                                     </Grid>
                                     <Grid item="7" md="7" className={styles.date}>
-                                       
+
                                     </Grid>
                                 </Grid>
                             </CardContent>
@@ -82,7 +95,7 @@ class Cards extends Component {
                                         <img src={Time} className={styles.timeicon} />
                                     </Grid>
                                     <Grid item="7" md="7" className={styles.date}>
-                                        
+
                                     </Grid>
                                 </Grid>
                             </CardContent>
@@ -112,7 +125,7 @@ class Cards extends Component {
                                         <img src={Time} className={styles.timeicon} />
                                     </Grid>
                                     <Grid item="7" md="7" className={styles.date}>
-                                        
+
                                     </Grid>
                                 </Grid>
                             </CardContent>
