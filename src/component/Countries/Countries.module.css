@@ -1,12 +1,19 @@
+.countries {
+    width: 100%;
+    height: 1000px;
+    background-color: #f5f5f5;
+}
+
 .header {
     width: 100%;
     background-color: #4f48ec;
     height: 90px;
+    box-shadow: 2px 2px 30px -8px #000000;
 }
 
 .totalcard {
     float: right;
-    margin-right: 10px;
+    margin-right: 1%;
     margin-top: 12px;
     background-color: #FFBF18;
     border-radius: 15px;
@@ -18,4 +25,42 @@
     padding-top: 19px;
     color: #000000;
     font-weight: bold;
+}
+
+.cards {
+    margin-top: 8%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 100%;
+    height: 250px;
+    border-left: solid 3px #FFBF18;
+}
+
+.cardsheader h4 {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    width: 100%;
+    border-bottom: solid 3px #f5f5f5;
+    padding: 15px;
+}
+
+.confirmedcircle {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.confirmedtitle {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.confirmedvalue {
+    font-size: 18px;
+    padding-left: 10px;
 }
