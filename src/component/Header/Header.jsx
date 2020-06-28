@@ -26,7 +26,7 @@ class Header extends Component {
                         <h3>Get to know about COVID-19.</h3>
                     </Grid>
                     <Grid item xs="6" md="6" className={styles.countries}>
-                        <a href="#">
+                        <a href="/countries">
                             <label className={styles.country}>{this.state.countries.length} Country</label>
                         </a>
                     </Grid>
