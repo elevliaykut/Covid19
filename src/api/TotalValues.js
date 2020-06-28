@@ -27,3 +27,16 @@ export const getCountries = () => {
             console.log(error);
         })
 }
+
+export const countryDetails = () => {
+    return axios
+        .get('https://covid19.mathdro.id/api/confirmed', {
+            header: { 'Content-Type': 'application/json' }
+        })
+        .then(response => {
+            return response.data;
+        })
+        .catch(error => {
+            console.log(error);
+        })
+}
