@@ -3,6 +3,7 @@ import styles from './Countries.module.css';
 import { getCountries, countryDetails } from '../../api/TotalValues';
 import Time from '../../icons/clock.svg';
 import Search from '../../icons/search.svg';
+import Snipper from '../../icons/snipper.svg';
 
 class Countries extends Component {
     constructor() {
@@ -64,6 +65,17 @@ class Countries extends Component {
 
 
     }
+
+    renderLoading = () => {
+        return(
+            <div className={styles.loadingpage}>
+                <div className={styles.header}></div>
+                <img src={Snipper} className={styles.loadingicon}/>
+                <h2>the server awakens...</h2>
+            </div>
+        )
+    }
+    
     componentDidMount() {
         getCountries().then(res => {
             this.setState({
@@ -74,7 +86,7 @@ class Countries extends Component {
         countryDetails().then(res => {
             this.setState({
                 countryDetails: res,
-                loadded: true,
+                loadded: true
             })
         });
     }
@@ -85,7 +97,7 @@ class Countries extends Component {
 
     render() {
         if (!this.state.loadded) {
-            return <div>Loading</div>
+            return this.renderLoading()
         }
         return (
             <>
