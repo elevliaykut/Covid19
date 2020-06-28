@@ -8,6 +8,8 @@ import CountUp from 'react-countup';
 import Time from '../../icons/clock.svg';
 import { Row, Col } from 'reactstrap';
 import { totalValues } from '../../api/TotalValues';
+import Snipper from '../../icons/snipper.svg';
+
 
 class Cards extends Component {
 
@@ -20,6 +22,16 @@ class Cards extends Component {
             lastUpdate: '',
             loadded: false
         }
+    }
+
+    renderLoading = () => {
+        return (
+            <div className={styles.loadingpage}>
+                <div className={styles.header}></div>
+                <img src={Snipper} className={styles.loadingicon} />
+                <h2>the server awakens...</h2>
+            </div>
+        )
     }
 
     componentDidMount() {
@@ -36,7 +48,7 @@ class Cards extends Component {
     }
     render() {
         if (!this.state.loadded) {
-            return <div>Loadding</div>
+            return this.renderLoading()
         }
         return (
             <Grid item xs={12} md={12} className={styles.content}>

@@ -123,6 +123,26 @@
     text-align: left;
 }
 
+.loadingpage {
+    width: 100%;
+    height: 100%;
+}
+
+.loadingpage h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.loadingheader {
+    height: 90px;
+    box-shadow: 2px 2px 15px -8px #000000;
+}
+
+.loadingicon {
+    width: 8%;
+    margin-top: 16%;
+}
+
 @media (max-width: 600px) {
     .confirmedcart {
         margin-top: 10px;
