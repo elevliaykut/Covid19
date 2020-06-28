@@ -44,6 +44,9 @@
     background-color: #4f48ec;
     border: 0px;
     margin-left: 15px;
+    color: #fff;
+    font-weight: bold;
+    padding-left: 10px;
 }
 
 .totalcard {
