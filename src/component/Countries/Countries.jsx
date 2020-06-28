@@ -31,10 +31,13 @@ class Countries extends Component {
         if (!this.state.loadded) {
             return <div>Loading</div>
         }
-        return (
+        return (  
             <>
                 <div className={styles.countries}>
                     <div className={styles.header}>
+                        <div className={styles.title}>
+                            <h5>Covid19</h5>
+                        </div>
                         <div className={styles.totalcard}>
                             <label>{this.state.countryDetails.length} Regions</label>
                         </div>

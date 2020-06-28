@@ -10,11 +10,22 @@
     box-shadow: 2px 2px 30px -8px #000000;
 }
 
+.title h5 {
+    float: left;
+    margin-left: 12%;
+    font-size: 35px;
+    color: #f5f5f5;
+    font-weight: bold;
+    box-shadow: 2px 2px 30px -8px #000000;
+    border-radius: 10px 0px 10px 0px;
+    padding: 12px;
+    margin-top: 12px;
+}
+
 .totalcard {
     float: right;
-    margin-right: 1%;
+    margin-right: 12%;
     margin-top: 12px;
-    background-color: #FFBF18;
     border-radius: 15px;
     box-shadow: 2px 2px 30px -8px #000000;
 }
@@ -22,7 +33,7 @@
 .totalcard label {
     padding: 12px;
     padding-top: 19px;
-    color: #000000;
+    color: #f5f5f5;
     font-weight: bold;
 }
 
@@ -32,6 +43,8 @@
     border-radius: 10px;
     width: 100%;
     border-left: solid 3px #FFBF18;
+    border-right: solid 3px #FFBF18;
+    box-shadow: 2px 2px 15px -8px #000000;
 }
 
 .cardsheader h4 {
