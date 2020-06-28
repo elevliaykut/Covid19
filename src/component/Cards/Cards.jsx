@@ -14,7 +14,7 @@ class Cards extends Component {
     constructor() {
         super();
         this.state = {
-            confiemed: '',
+            confirmed: '',
             recovered: '',
             deaths: '',
             lastUpdate: '',
@@ -54,7 +54,7 @@ class Cards extends Component {
                                 </Grid>
                                 <Grid container item xs="12" md="12" className={styles.cardbody}>
                                     <Grid item xs="12" md="12" className={styles.value}>
-                                        <CountUp start={0} duration={2.5} separator="," />
+                                        <CountUp start={0} end={this.state.confirmed} duration={2.5} separator="," />
                                     </Grid>
                                     <Grid item xs="12" md="12" className={styles.label}>
                                         People
@@ -65,7 +65,7 @@ class Cards extends Component {
                                         <img src={Time} className={styles.timeicon} />
                                     </Grid>
                                     <Grid item="7" md="7" className={styles.date}>
-
+                                        <h6>{new Date(this.state.lastUpdate).toDateString()}</h6>
                                     </Grid>
                                 </Grid>
                             </CardContent>
@@ -84,7 +84,7 @@ class Cards extends Component {
                                 </Grid>
                                 <Grid container item xs="12" md="12" className={styles.cardbody}>
                                     <Grid item xs="12" md="12" className={styles.value}>
-                                        <CountUp start={0} duration={2.5} separator="," />
+                                        <CountUp start={0} end={this.state.recovered} duration={2.5} separator="," />
                                     </Grid>
                                     <Grid item xs="12" md="12" className={styles.label}>
                                         People
@@ -95,7 +95,7 @@ class Cards extends Component {
                                         <img src={Time} className={styles.timeicon} />
                                     </Grid>
                                     <Grid item="7" md="7" className={styles.date}>
-
+                                        <h6>{new Date(this.state.lastUpdate).toDateString()}</h6>
                                     </Grid>
                                 </Grid>
                             </CardContent>
@@ -114,7 +114,7 @@ class Cards extends Component {
                                 </Grid>
                                 <Grid container item xs="12" md="12" className={styles.cardbody}>
                                     <Grid item xs="12" md="12" className={styles.value}>
-                                        <CountUp start={0} duration={2.5} separator="," />
+                                        <CountUp start={0} end={this.state.deaths} duration={2.5} separator="," />
                                     </Grid>
                                     <Grid item xs="12" md="12" className={styles.label}>
                                         People
@@ -125,7 +125,7 @@ class Cards extends Component {
                                         <img src={Time} className={styles.timeicon} />
                                     </Grid>
                                     <Grid item="7" md="7" className={styles.date}>
-
+                                        <h6>{new Date(this.state.lastUpdate).toDateString()}</h6>
                                     </Grid>
                                 </Grid>
                             </CardContent>
