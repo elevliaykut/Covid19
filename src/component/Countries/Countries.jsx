@@ -19,7 +19,7 @@ class Countries extends Component {
         const { search } = this.state;
 
         if (search !== "" && country.countryRegion.toLowerCase().indexOf(search.toLowerCase()) === -1) {
-            return null
+            return null;
         }
         return <div className="col-6">
             <div className={styles.cards}>

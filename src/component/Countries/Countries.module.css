@@ -23,9 +23,9 @@
 }
 
 .searchbar {
-    margin-top: 40px;
+    margin-top: 33px;
     float: left;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .searchicon {
@@ -43,7 +43,7 @@
     width: 500px;
     background-color: #4f48ec;
     border: 0px;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .totalcard {
