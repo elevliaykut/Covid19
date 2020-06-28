@@ -32,7 +32,6 @@
     background-color: #ffffff;
     border-radius: 10px;
     width: 100%;
-    height: 250px;
     border-left: solid 3px #FFBF18;
 }
 
@@ -45,13 +44,18 @@
     padding: 15px;
 }
 
+.confirmed {
+    display: flex;
+    margin-top: 2%;
+}
+
 .confirmedcircle {
     width: 20px;
     height: 20px;
     background-color: green;
     border-radius: 20px;
-    margin-left: 40px;
-    margin-top: 5px;
+    margin-left: 30px;
+    margin-top: 4px;
 }
 
 .confirmedtitle {
@@ -63,4 +67,81 @@
 .confirmedvalue {
     font-size: 18px;
     padding-left: 10px;
+    margin-top: 2px;
+}
+
+.recovered {
+    display: flex;
+    margin-top: 2%;
+}
+
+.recoveredcircle {
+    width: 20px;
+    height: 20px;
+    background-color: #FFBF18;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 4px;
+}
+
+.recoveredtitle {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.recoveredvalue {
+    font-size: 18px;
+    padding-left: 10px;
+    margin-top: 2px;
+}
+
+.deaths {
+    display: flex;
+    margin-top: 2%;
+}
+
+.deathscircle {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 4px;
+}
+
+.deathstitle {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.deathsvalue {
+    font-size: 18px;
+    padding-left: 10px;
+    margin-top: 2px;
+}
+
+.date {
+    display: flex;
+    margin-top: 2%;
+}
+
+.timeicon {
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+    margin-top: 4px;
+}
+
+.datetitle {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.datevalue {
+    font-size: 18px;
+    padding-left: 10px;
+    margin-top: 2px;
 }
