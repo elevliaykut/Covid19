@@ -5,6 +5,14 @@
     padding: 20px;
 }
 
+.confirmedcart a {
+    color: black;
+}
+
+.confirmedcart a:hover {
+    color: #555555;
+}
+
 .confirmedicon {
     width: 20px;
     background-color: #4CAF50;
@@ -58,6 +66,14 @@
     margin-left: 10px;
 }
 
+.recovered a {
+    color: black;
+}
+
+.recovered a:hover {
+    color: #555555;
+}
+
 .recoveredicon {
     width: 20px;
     background-color: #FFBF18;
@@ -83,6 +99,14 @@
     border-bottom-width: 30px;
     border-bottom-color: #FFBF18;
     margin-left: 10px;
+}
+
+.death a {
+    color: black;
+}
+
+.death a:hover {
+    color: #555555;
 }
 
 .cardfooter {
