@@ -224,4 +224,16 @@
         display: flex;
         width: 90%;
     }
+    .confirmedvalue {
+        font-size: 14px;
+    }
+    .recoveredvalue {
+        font-size: 14px;
+    }
+    .deathsvalue {
+        font-size: 14px;
+    }
+    .datevalue {
+        font-size: 14px;
+    }
 }
