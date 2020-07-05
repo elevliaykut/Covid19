@@ -77,7 +77,7 @@
 .cardsheader h4 {
     padding-top: 20px;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 18px;
     width: 100%;
     border-bottom: solid 3px #f5f5f5;
     padding: 15px;
@@ -89,8 +89,8 @@
 }
 
 .confirmedcircle {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     background-color: green;
     border-radius: 20px;
     margin-left: 30px;
@@ -99,14 +99,13 @@
 
 .confirmedtitle {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     padding-left: 10px;
 }
 
 .confirmedvalue {
-    font-size: 18px;
+    font-size: 16px;
     padding-left: 10px;
-    margin-top: 2px;
 }
 
 .recovered {
@@ -115,8 +114,8 @@
 }
 
 .recoveredcircle {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     background-color: #FFBF18;
     border-radius: 20px;
     margin-left: 30px;
@@ -125,14 +124,13 @@
 
 .recoveredtitle {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     padding-left: 10px;
 }
 
 .recoveredvalue {
-    font-size: 18px;
+    font-size: 16px;
     padding-left: 10px;
-    margin-top: 2px;
 }
 
 .deaths {
@@ -141,8 +139,8 @@
 }
 
 .deathscircle {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     background-color: red;
     border-radius: 20px;
     margin-left: 30px;
@@ -151,14 +149,13 @@
 
 .deathstitle {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     padding-left: 10px;
 }
 
 .deathsvalue {
-    font-size: 18px;
+    font-size: 16px;
     padding-left: 10px;
-    margin-top: 2px;
 }
 
 .date {
@@ -167,22 +164,21 @@
 }
 
 .timeicon {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     margin-left: 30px;
     margin-top: 4px;
 }
 
 .datetitle {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     padding-left: 10px;
 }
 
 .datevalue {
-    font-size: 18px;
+    font-size: 16px;
     padding-left: 10px;
-    margin-top: 2px;
 }
 
 .loadingpage {
