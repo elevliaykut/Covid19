@@ -205,6 +205,18 @@
     margin-top: 16%;
 }
 
+@media(max-width: 1200px) {
+    .totalcard {
+        display: none;
+    }
+}
+
+@media(max-width: 1000px) {
+    .title {
+        display: none;
+    }
+}
+
 @media(max-width: 600px) {
     .title {
         display: none;
