@@ -204,3 +204,13 @@
     width: 8%;
     margin-top: 16%;
 }
+
+@media(max-width: 600px) {
+    .title {
+        display: none;
+    }
+    .searchbar {
+        display: flex;
+        width: 90%;
+    }
+}
