@@ -5,13 +5,33 @@
     padding-top: 40px;
 }
 
+.title {
+    width: 25%;
+}
+
+.githubLogo {
+    width: 25%;
+}
+
+.linkedinLogo {
+    width: 25%;
+}
+
+.mediumLogo {
+    width: 25%;
+}
+
+.websiteLogo {
+    width: 25%;
+}
+
 .title h3 {
     width: 120%;
     background-color: #4f48ec;
     padding: 20px;
     color: #fff;
     font-size: 15px;
-    border-radius: 0px 10px 0px 0px;
+    border-radius: 0px 10px 10px 0px;
 }
 
 .githubLogo h4 {
