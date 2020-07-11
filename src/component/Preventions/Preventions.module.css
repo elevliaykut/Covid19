@@ -8,7 +8,7 @@
 .preventions {
     text-align: center;
     border-bottom-style: solid;
-    border-bottom-width: 30px;
+    border-bottom-width: 3px;
     border-bottom-color: #4f48ec;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .usemaskcard {
-    margin-left: 4%;
+    margin-left: 10%;
     width: 25%;
     border-bottom-style: solid;
     border-bottom-width: 30px;
@@ -68,7 +68,7 @@
 }
 
 .disinfectcard {
-    margin-left: 4%;
+    margin-left: 10%;
     width: 25%;
     border-bottom-style: solid;
     border-bottom-width: 30px;
@@ -88,6 +88,11 @@
 }
 
 @media (max-width: 600px) {
+    .preventions h2 {
+        font-size: 25px;
+        font-family: Avenir;
+        font-weight: bold;
+    }
     .washhandscard {
         margin-top: 10px;
         width: 100% !important;
@@ -99,5 +104,40 @@
     .disinfectcard {
         margin-top: 10px;
         width: 100% !important;
+    }
+    .handicon {
+        width: 20%;
+    }
+    .washhandscontent h4 {
+        font-size: 18px;
+    }
+    .washhandscontent h5 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .washhandscontent li {
+        font-size: 15px;
+    }
+    .maskicon {
+        width: 20%;
+    }
+    .usemaskcontent h4 {
+        font-size: 18px;
+    }
+    .usemaskcontent h5 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .usemaskcontent li {
+        font-size: 15px;
+    }
+    .disinfecticon {
+        width: 20%;
+    }
+    .disinfectcontent h4 {
+        font-size: 18px;
+    }
+    .disinfectcontent li {
+        font-size: 15px;
     }
 }
