@@ -67,15 +67,15 @@ class Countries extends Component {
     }
 
     renderLoading = () => {
-        return(
+        return (
             <div className={styles.loadingpage}>
                 <div className={styles.header}></div>
-                <img src={Snipper} className={styles.loadingicon}/>
+                <img src={Snipper} className={styles.loadingicon} />
                 <h2>the server awakens...</h2>
             </div>
         )
     }
-    
+
     componentDidMount() {
         getCountries().then(res => {
             this.setState({
@@ -103,17 +103,16 @@ class Countries extends Component {
             <>
                 <div className={styles.countries}>
                     <div className={styles.header}>
-                        <div className={styles.title}>
-                            <a href="/">
-                                <h5>Covid19</h5>
-                            </a>
-                        </div>
-                        <div className={styles.searchbar}>
-                            <img src={Search} className={styles.searchicon} />
-                            <input className={styles.search} placeholder="Search" onChange={this.onChange} />
-                        </div>
-                        <div className={styles.totalcard}>
-                            <label>{this.state.countryDetails.length} Regions</label>
+                        <div className="row">
+                            <div className={styles.title}>
+                                <h2>Covid19</h2>
+                            </div>
+                            <div className={styles.searchbar}>
+                                <input className={styles.search} placeholder="Search" onChange={this.onChange} />
+                            </div>
+                            <div className={styles.totalcard}>
+                                <label>{this.state.countryDetails.length} Regions</label>
+                            </div>
                         </div>
                     </div>
                     <div className={styles.body}>

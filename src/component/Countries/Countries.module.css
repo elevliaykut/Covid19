@@ -10,57 +10,53 @@
     box-shadow: 2px 2px 30px -8px #000000;
 }
 
-.title h5 {
-    float: left;
+.title {
     margin-left: 12%;
+    width: 15%;
+}
+
+.title h2 {
     font-size: 35px;
     color: #f5f5f5;
     font-weight: bold;
     box-shadow: 2px 2px 30px -8px #000000;
     border-radius: 10px 0px 10px 0px;
+    margin-top: 4%;
     padding: 12px;
-    margin-top: 12px;
 }
 
 .searchbar {
-    margin-top: 33px;
-    float: left;
-    margin-left: 30px;
-}
-
-.searchicon {
-    width: 25px;
-}
-
-.searchbar input::placeholder {
-    font-size: 20px;
-    color: #fff;
-    font-weight: bold;
+    margin-top: 2%;
+    margin-left: 4%;
+    width: 44%;
 }
 
 .search {
+    width: 100%;
     border-radius: 10px;
-    width: 500px;
     background-color: #4f48ec;
     border: 0px;
-    margin-left: 15px;
-    color: #fff;
     font-weight: bold;
     padding-left: 10px;
 }
 
 .totalcard {
-    float: right;
-    margin-right: 12%;
-    margin-top: 12px;
-    border-radius: 15px;
-    box-shadow: 2px 2px 30px -8px #000000;
+    margin-left: 4%;
+    margin-top: 1%;
 }
 
 .totalcard label {
+    border-radius: 15px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 30px -8px #000000;
     padding: 12px;
-    padding-top: 19px;
     color: #f5f5f5;
+    font-weight: bold;
+}
+
+.searchbar input::placeholder {
+    font-size: 20px;
+    color: #fff;
     font-weight: bold;
 }
 
@@ -221,8 +217,9 @@
         display: none;
     }
     .searchbar {
-        display: flex;
-        width: 90%;
+        width: 87%;
+        margin-left: 6%;
+        margin-top: 5%;
     }
     .confirmedvalue {
         font-size: 14px;
