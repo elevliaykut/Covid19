@@ -6,7 +6,7 @@
 .symptomps {
     text-align: center;
     border-bottom-style: solid;
-    border-bottom-width: 30px;
+    border-bottom-width: 3px;
     border-bottom-color: #4f48ec
 }
 
@@ -35,6 +35,11 @@
 }
 
 @media (max-width:600px) {
+    .symptomps h2 {
+        font-size: 25px;
+        font-family: Avenir;
+        font-weight: bold;
+    }
     .headache {
         padding: 40px;
     }

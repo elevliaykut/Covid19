@@ -15,7 +15,6 @@
 .stayathome h2 {
     padding-left: 20px;
     text-align: left;
-    font-size: 18px;
     font-family: Avenir;
 }
 
@@ -29,5 +28,8 @@
     .map {
         margin-top: 10px;
         width: 100% !important;
+    }
+    .stayathome h2 {
+        font-size: 18px;
     }
 }
