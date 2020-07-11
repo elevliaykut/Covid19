@@ -219,18 +219,58 @@
     .searchbar {
         width: 87%;
         margin-left: 6%;
-        margin-top: 5%;
+        margin-top: 7%;
+    }
+    .confirmedcircle {
+        width: 5px;
+        height: 5px;
+    }
+    .confirmedtitle {
+        font-size: 12px;
+        margin-top: -2px;
     }
     .confirmedvalue {
-        font-size: 14px;
+        font-size: 12px;
+        margin-top: -2px;
+        padding-left: 5px;
+    }
+    .recoveredcircle {
+        width: 5px;
+        height: 5px;
+    }
+    .recoveredtitle {
+        font-size: 12px;
+        margin-top: -2px;
     }
     .recoveredvalue {
-        font-size: 14px;
+        font-size: 12px;
+        margin-top: -2px;
+        padding-left: 5px;
+    }
+    .deathscircle {
+        width: 5px;
+        height: 5px;
+    }
+    .deathstitle {
+        font-size: 12px;
+        margin-top: -2px;
     }
     .deathsvalue {
-        font-size: 14px;
+        font-size: 12px;
+        margin-top: -2px;
+        padding-left: 5px;
+    }
+    .timeicon {
+        width: 5px;
+        height: 5px;
+    }
+    .datetitle {
+        font-size: 12px;
+        margin-top: -2px;
     }
     .datevalue {
-        font-size: 14px;
+        font-size: 12px;
+        margin-top: -2px;
+        padding-left: 5px;
     }
 }
