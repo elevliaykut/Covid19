@@ -37,7 +37,12 @@
             height: 160px;
         }
         .title {
-            display: none;
+            padding: 0px;
+        }
+        .title h3 {
+            font-size: 13px;
+            padding-top: 27%;
+            padding-left: 14%;
         }
         .countries {
             padding: 0px;
