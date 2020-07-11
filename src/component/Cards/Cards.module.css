@@ -151,9 +151,42 @@
     .recovered {
         margin-top: 40px;
         width: 100% !important;
+        margin-left: 0px;
     }
     .death {
         margin-top: 40px;
         width: 100% !important;
+        margin-left: 0px;
+    }
+    .title {
+        padding-left: 0px;
+        text-align: right;
+    }
+    .title h3 {
+        font-size: 18px;
+        font-family: Avenir;
+    }
+    .confirmedicon {
+        display: none;
+    }
+    .recoveredicon {
+        display: none;
+    }
+    .deathicon {
+        display: none;
+    }
+    .value {
+        font-size: 18px;
+    }
+    .label {
+        font-size: 25px;
+    }
+    .timeicon {
+        width: 25%;
+        margin-top: 10%;
+    }
+    .date {
+        padding: 0px;
+        padding-top: 2%;
     }
 }
