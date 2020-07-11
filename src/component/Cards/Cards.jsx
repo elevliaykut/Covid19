@@ -46,7 +46,7 @@ class Cards extends Component {
         });
 
     }
-    
+
     render() {
         if (!this.state.loadded) {
             return this.renderLoading()
