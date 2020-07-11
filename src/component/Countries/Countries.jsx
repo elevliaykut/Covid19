@@ -105,7 +105,9 @@ class Countries extends Component {
                     <div className={styles.header}>
                         <div className="row">
                             <div className={styles.title}>
-                                <h2>Covid19</h2>
+                                <a href="/">
+                                    <h2>Covid19</h2>
+                                </a>
                             </div>
                             <div className={styles.searchbar}>
                                 <input className={styles.search} placeholder="Search" onChange={this.onChange} />
