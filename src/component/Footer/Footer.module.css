@@ -36,7 +36,14 @@
 
 .githubLogo h4 {
     font-size: 18px;
+    color: 4f4f4f4;
+    font-family: Avenir;
     padding: 8px;
+}
+
+.githubLogo h4:hover {
+    color: #000000;
+    font-weight: bold;
 }
 
 .github {
@@ -46,7 +53,14 @@
 
 .linkedinLogo h4 {
     font-size: 18px;
+    color: 4f4f4f4;
+    font-family: Avenir;
     padding: 8px;
+}
+
+.linkedinLogo h4:hover {
+    color: #000000;
+    font-weight: bold;
 }
 
 .linkedin {
@@ -55,7 +69,14 @@
 
 .websiteLogo h4 {
     font-size: 18px;
+    color: 4f4f4f4;
+    font-family: Avenir;
     padding: 8px;
+}
+
+.mediumLogo h4:hover {
+    color: #000000;
+    font-weight: bold;
 }
 
 .website {
@@ -64,7 +85,14 @@
 
 .mediumLogo h4 {
     font-size: 18px;
+    color: 4f4f4f4;
+    font-family: Avenir;
     padding: 8px;
+}
+
+.websiteLogo h4:hover {
+    color: #000000;
+    font-weight: bold;
 }
 
 .medium {
@@ -76,6 +104,11 @@ a {
     color: #aaa;
 }
 
+a:hover {
+    color: #000000;
+    font-weight: bold;
+}
+
 @media (max-width: 600px) {
     .title {
         width: 88% !important;
@@ -83,5 +116,37 @@ a {
     .title h3 {
         border-radius: 0px;
         font-weight: bold;
+    }
+    .githubLogo .github {
+        width: 25%;
+    }
+    .githubLogo h4 {
+        font-size: 13px;
+        font-family: Avenir;
+        color: 4f4f4f4;
+    }
+    .linkedinLogo .linkedin {
+        width: 25%;
+    }
+    .linkedinLogo h4 {
+        font-size: 13px;
+        font-family: Avenir;
+        color: 4f4f4f4;
+    }
+    .mediumLogo .medium {
+        width: 25%;
+    }
+    .mediumLogo h4 {
+        font-size: 13px;
+        font-family: Avenir;
+        color: 4f4f4f4;
+    }
+    .websiteLogo .website {
+        width: 25%;
+    }
+    .websiteLogo h4 {
+        font-size: 13px;
+        font-family: Avenir;
+        color: 4f4f4f4;
     }
 }
