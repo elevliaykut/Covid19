@@ -23,7 +23,7 @@ class Header extends Component {
             <div className="Header">
                 <Grid container item xs="12" md="12" className={styles.header}>
                     <Grid item xs="6" md="6" className={styles.title}>
-                        <h3>COVID-19.</h3>
+                        <h3>Get the know about COVID-19.</h3>
                     </Grid>
                     <Grid item xs="6" md="6" className={styles.countries}>
                         <a href="/countries">
