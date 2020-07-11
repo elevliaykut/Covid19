@@ -46,13 +46,10 @@ const Preventions = () => {
                         </Row>
                         <Row>
                             <Col className={styles.usemaskcontent}>
-                                <h4>Wash Your Hands</h4>
-                                <h5>Wash your hands regularly, especially: </h5>
-                                <li>after blowing your nose, coughing or sneezing. </li>
-                                <li>after touching surfaces outside of the home.</li>
-                                <li>after touching money. </li>
-                                <li>before, during and after caring for a sick or vulnerable person. </li>
-                                <li>before and after eating. </li>
+                                <h4>Use Mask</h4>
+                                <li>Public health experts say you need to wear masks outside, especially when near other people. </li>
+                                <li>Available research shows wearing masks and social distancing appear to limit the spread of the virus.</li>
+                                <li>Masks should completely cover your mouth and nose with a snug (but not tight) fit. </li>
                             </Col>
                         </Row>
                     </CardContent>

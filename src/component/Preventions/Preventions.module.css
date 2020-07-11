@@ -18,8 +18,8 @@
 }
 
 .washhandscard {
-    margin-left: 10%;
-    width: 25%;
+    margin-left: 5%;
+    width: 30%;
     border-bottom-style: solid;
     border-bottom-width: 30px;
     border-bottom-color: #FFBF18;
@@ -43,8 +43,8 @@
 }
 
 .usemaskcard {
-    margin-left: 10%;
-    width: 25%;
+    margin-left: 2%;
+    width: 30%;
     border-bottom-style: solid;
     border-bottom-width: 30px;
     border-bottom-color: #FFBF18;
@@ -68,8 +68,8 @@
 }
 
 .disinfectcard {
-    margin-left: 10%;
-    width: 25%;
+    margin-left: 2%;
+    width: 30%;
     border-bottom-style: solid;
     border-bottom-width: 30px;
     border-bottom-color: #FFBF18;
@@ -100,10 +100,12 @@
     .usemaskcard {
         margin-top: 10px;
         width: 100% !important;
+        margin-left: 5%;
     }
     .disinfectcard {
         margin-top: 10px;
         width: 100% !important;
+        margin-left: 5%;
     }
     .handicon {
         width: 20%;
