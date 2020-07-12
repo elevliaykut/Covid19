@@ -103,18 +103,16 @@ class Countries extends Component {
             <>
                 <div className={styles.countries}>
                     <div className={styles.header}>
-                        <div className="row">
-                            <div className={styles.title}>
-                                <a href="/">
-                                    <h2>Covid19</h2>
-                                </a>
-                            </div>
-                            <div className={styles.searchbar}>
-                                <input className={styles.search} placeholder="Search" onChange={this.onChange} />
-                            </div>
-                            <div className={styles.totalcard}>
-                                <label>{this.state.countryDetails.length} Regions</label>
-                            </div>
+                        <div className={styles.title}>
+                            <a href="/">
+                                <h2>Covid19</h2>
+                            </a>
+                        </div>
+                        <div className={styles.searchbar}>
+                            <input className={styles.search} placeholder="Search" onChange={this.onChange} />
+                        </div>
+                        <div className={styles.totalcard}>
+                            <label>{this.state.countryDetails.length} Regions</label>
                         </div>
                     </div>
                     <div className={styles.body}>

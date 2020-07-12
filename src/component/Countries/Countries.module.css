@@ -6,11 +6,13 @@
     width: 100%;
     background-color: #4f48ec;
     box-shadow: 2px 2px 30px -8px #000000;
+    display: flex;
 }
 
 .title {
     margin-left: 12%;
     width: 15%;
+    padding: 10px;
 }
 
 .title h2 {
@@ -24,7 +26,6 @@
 }
 
 .searchbar {
-    margin-top: 2%;
     margin-left: 4%;
     width: 44%;
 }
@@ -36,11 +37,12 @@
     border: 0px;
     font-weight: bold;
     padding-left: 10px;
+    margin-top: 6%;
 }
 
 .totalcard {
     margin-left: 4%;
-    margin-top: 1%;
+    margin-top: 2%;
 }
 
 .totalcard label {
@@ -199,6 +201,9 @@
     .totalcard {
         display: none;
     }
+    .search {
+        margin-bottom: 5%;
+    }
     .cardsheader h4 {
         font-size: 15px;
     }
@@ -217,7 +222,10 @@
     .searchbar {
         width: 87%;
         margin-left: 6%;
-        margin-top: 7%;
+        margin-top: 0%;
+    }
+    .search {
+        margin-bottom: 5%;
     }
     .confirmedcircle {
         width: 5px;
