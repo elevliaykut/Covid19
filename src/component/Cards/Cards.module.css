@@ -14,34 +14,32 @@
 }
 
 .confirmedicon {
-    width: 20px;
+    width: 15px;
+    height: 15px;
     background-color: #4CAF50;
     opacity: 80%;
     border-radius: 10px;
-    padding: 8px;
+    padding: 9px;
 }
 
 .confirmedcart {
     padding: 25px;
     margin-top: -100px;
-    height: 300px;
+    height: 200px;
     border-bottom-style: solid;
     border-bottom-width: 30px;
     border-bottom-color: #FFBF18;
 }
 
-.value {
-    padding: 15px;
-    font-weight: bold;
-    font-size: 30px;
-    text-align: left;
+.peopleicon {
+    margin-top: 10px;
+    width: 45%;
 }
 
-.label {
-    padding-left: 50px;
-    font-size: 25px;
-    opacity: 0.7;
-    font-weight: bold;
+.value {
+    padding-top: 6px;
+    font-family: Avenir;
+    font-size: 20px;
     text-align: left;
 }
 
@@ -52,14 +50,20 @@
 
 .title {
     text-align: left;
-    padding-left: 10px;
-    margin-bottom: 1px;
+    padding-left: 2px;
+}
+
+.title h3 {
+    font-size: 22px;
+    font-family: Avenir;
+    font-weight: bold;
+    margin-top: -2px;
 }
 
 .recovered {
     padding: 25px;
     margin-top: -100px;
-    height: 300px;
+    height: 200px;
     border-bottom-style: solid;
     border-bottom-width: 30px;
     border-bottom-color: #FFBF18;
@@ -75,25 +79,27 @@
 }
 
 .recoveredicon {
-    width: 20px;
     background-color: #FFBF18;
-    opacity: 70%;
+    width: 15px;
+    height: 15px;
+    opacity: 80%;
     border-radius: 10px;
-    padding: 8px;
+    padding: 9px;
 }
 
 .deathicon {
-    width: 20px;
     background-color: #df0404;
-    opacity: 70%;
+    width: 15px;
+    height: 15px;
+    opacity: 80%;
     border-radius: 10px;
-    padding: 8px;
+    padding: 9px;
 }
 
 .death {
     padding: 25px;
     margin-top: -100px;
-    height: 300px;
+    height: 200px;
     border-bottom-style: solid;
     border-bottom-style: solid;
     border-bottom-width: 30px;
@@ -114,13 +120,18 @@
 }
 
 .timeicon {
-    width: 40%;
+    width: 35%;
     text-align: left;
 }
 
 .date {
-    padding: 5px;
+    padding: 2px;
     text-align: left;
+}
+
+.date h6 {
+    font-size: 18px;
+    font-family: Avenir;
 }
 
 .loadingpage {

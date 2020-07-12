@@ -6,6 +6,7 @@ import styles from './Cards.module.css';
 import Icon from '../../icons/running.svg';
 import CountUp from 'react-countup';
 import Time from '../../icons/clock.svg';
+import People from '../../icons/group.svg';
 import { Row, Col } from 'reactstrap';
 import { totalValues } from '../../api/TotalValues';
 import Snipper from '../../icons/snipper.svg';
@@ -60,19 +61,19 @@ class Cards extends Component {
                                 <a href="/countries">
                                     <Grid container item xs="12" md="12" className={styles.cardheader}>
                                         <Grid item xs="2" md="2">
-                                            <img src={Icon} className={styles.confirmedicon} />
+                                            <div className={styles.confirmedicon}></div>
                                         </Grid>
                                         <Grid item xs="10" md="10" className={styles.title}>
-                                            <h3>Total Confirmed</h3>
+                                            <h3>Confirmed</h3>
                                         </Grid>
                                     </Grid>
                                     <Grid container item xs="12" md="12" className={styles.cardbody}>
-                                        <Grid item xs="12" md="12" className={styles.value}>
+                                        <Grid item xs="2" md="2">
+                                            <img src={People} className={styles.peopleicon} />
+                                        </Grid>
+                                        <Grid item xs="10" md="10" className={styles.value}>
                                             <CountUp start={0} end={this.state.confirmed} duration={2.5} separator="," />
                                         </Grid>
-                                        <Grid item xs="12" md="12" className={styles.label}>
-                                            People
-                                </Grid>
                                     </Grid>
                                     <Grid container className={styles.cardfooter}>
                                         <Grid item xs="2" md="2">
@@ -92,19 +93,19 @@ class Cards extends Component {
                                 <a href="/countries">
                                     <Grid container item xs="12" md="12" className={styles.cardheader}>
                                         <Grid item xs="2" md="2">
-                                            <img src={Icon} className={styles.recoveredicon} />
+                                            <div className={styles.recoveredicon}></div>
                                         </Grid>
                                         <Grid item xs="10" md="10" className={styles.title}>
                                             <h3>Total Recovered</h3>
                                         </Grid>
                                     </Grid>
                                     <Grid container item xs="12" md="12" className={styles.cardbody}>
-                                        <Grid item xs="12" md="12" className={styles.value}>
+                                        <Grid item xs="2" md="2">
+                                            <img src={People} className={styles.peopleicon} />
+                                        </Grid>
+                                        <Grid item xs="10" md="10" className={styles.value}>
                                             <CountUp start={0} end={this.state.recovered} duration={2.5} separator="," />
                                         </Grid>
-                                        <Grid item xs="12" md="12" className={styles.label}>
-                                            People
-                                </Grid>
                                     </Grid>
                                     <Grid container item xs="12" md="12" className={styles.cardfooter}>
                                         <Grid item xs="2" md="2">
@@ -124,19 +125,19 @@ class Cards extends Component {
                                 <a href="/countries">
                                     <Grid container item xs="12" md="12" className={styles.cardheader}>
                                         <Grid item xs="2" md="2">
-                                            <img src={Icon} className={styles.deathicon} />
+                                            <div className={styles.deathicon}></div>
                                         </Grid>
                                         <Grid item xs="10" md="10" className={styles.title}>
                                             <h3>Total Death</h3>
                                         </Grid>
                                     </Grid>
                                     <Grid container item xs="12" md="12" className={styles.cardbody}>
-                                        <Grid item xs="12" md="12" className={styles.value}>
+                                        <Grid item xs="2" md="2">
+                                            <img src={People} className={styles.peopleicon} />
+                                        </Grid>
+                                        <Grid item xs="10" md="10" className={styles.value}>
                                             <CountUp start={0} end={this.state.deaths} duration={2.5} separator="," />
                                         </Grid>
-                                        <Grid item xs="12" md="12" className={styles.label}>
-                                            People
-                                </Grid>
                                     </Grid>
                                     <Grid container item xs="12" md="12" className={styles.cardfooter}>
                                         <Grid item xs="2" md="2">
