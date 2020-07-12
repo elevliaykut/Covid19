@@ -9,11 +9,6 @@ const Content = () => {
     return (
         <Grid item xs={12} md={12} className={styles.content}>
             <Row>
-                <Col className={styles.worldmap}>
-                    <img src={Map} className={styles.map} />
-                </Col>
-            </Row>
-            <Row>
                 <Col className={styles.stayathome}>
                     <h2>📍Stay At Home</h2>
                     <Typography color="textSecondary" className={styles.paragraph}>
