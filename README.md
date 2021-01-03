@@ -1,6 +1,6 @@
 <hr></hr>
 
-### Covid19 🎉
+### 🎉 Covid19  🎉
 
 with this project
 
