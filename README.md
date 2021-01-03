@@ -14,7 +14,7 @@ with this project:
 
 Technologies used;
 
-✔️ React.js
+✔️ React
 
 ✔️ JSX
 
