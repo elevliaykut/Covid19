@@ -18,7 +18,5 @@ Technologies used;
 
 ✔️ JSX
 
-✔️ Pure (Html, Css)
-
 <hr></hr>
 
