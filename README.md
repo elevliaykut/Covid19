@@ -2,7 +2,7 @@
 
 ### 🎉 Covid19  🎉
 
-with this project
+with this project:
 
 ✔️ See total values in the world.
 
